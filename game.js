@@ -82,7 +82,7 @@ function checkAnswer(position){
         startOver();
 
         // re-enabling mobile button
-        isMobile();
+        document.getElementsByClassName("buttonMobile")[0].style.visibility= "visible";
     }
     
 }
